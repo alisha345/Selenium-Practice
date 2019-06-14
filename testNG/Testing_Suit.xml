@@ -1,0 +1,7 @@
+<suite name = "HMS_Suite">
+<test name = "HMS_Login_Alerts_Handling">
+<classes>
+<class name = "testNG.AlertsHandling"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,7 @@
+<suite name ="webtable_Handling_test_suite">
+<test name = "WebtableHandling">
+<classes>
+<class name = "testNG.WebtableHandling"></class>
+</classes>
+</test>
+</suite>

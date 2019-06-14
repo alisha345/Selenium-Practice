@@ -1,0 +1,13 @@
+<suite name = "Test_testNG">
+<test name = "Frist_testNG_CLASS">
+<classes>
+<class name = "testNG.NewTest"></class>
+<methods>
+<includes name = "beforeTest"></includes>
+<includes name = "f"></includes>
+</methods>
+</classes>
+
+</test>
+
+</suite>
