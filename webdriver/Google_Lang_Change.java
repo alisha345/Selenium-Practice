@@ -4,8 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
-public class Google_Lang_Change {
+public class Google_lang_change {
 	public static WebDriver driver;
 
 	public static void OpenUrl() {
@@ -13,6 +12,7 @@ public class Google_Lang_Change {
 		driver = new ChromeDriver();
 		driver.get("http://google.com");
 		driver.manage().window().maximize();
+		
 	}
 
 	public static void Hindi() {
@@ -44,6 +44,7 @@ public class Google_Lang_Change {
 		Telugu();
 		Marathi();
 		Tamil();
+		driver.quit();
 
 	}
 

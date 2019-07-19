@@ -1,0 +1,26 @@
+<suite name = "Grid_Launch"  parallel = "tests">
+<test name = "Firefox_Results">
+<classes>
+<parameter name = "Sajid" value ="firefox"></parameter>
+<class name = "grid.LaunchingBrowsers"></class>
+</classes>
+</test>
+<test name = "Chrome_results">
+<classes>
+<parameter name = "Sajid" value ="chrome"></parameter>
+<class name = "grid.LaunchingBrowsers"></class>
+</classes>
+</test>
+<test name = "Ie_results">
+<classes>
+<parameter name = "Sajid" value ="ie"></parameter>
+<class name = "grid.LaunchingBrowsers"></class>
+</classes>
+</test>
+<test name = "Edge_results">
+<classes>
+<parameter name = "Sajid" value ="edge"></parameter>
+<class name = "grid.LaunchingBrowsers"></class>
+</classes>
+</test>
+</suite>

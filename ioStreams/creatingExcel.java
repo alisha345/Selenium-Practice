@@ -24,12 +24,12 @@ public class creatingExcel {
 		public String str;
   @Test
   public void f() throws Exception { 
-	  fo = new FileOutputStream("D:\\\\workspace\\\\SeleniumAutomation\\results\\results.xls");
+	  fo = new FileOutputStream("D:\\workspace\\SeleniumAutomation\\results\\results1.xls");
 		wb = Workbook.createWorkbook(fo);
-		ws = wb.createSheet("results", 0);
-		Label un = new Label(0, 0, "User Name");
-		Label pw = new Label(1, 0, "Password");
-		Label rs = new Label(2, 0, "Results");
+		ws = wb.createSheet("result2", 0);
+		Label un = new Label(0, 0, "User1 Name");
+		Label pw = new Label(1, 0, "Pass1word");
+		Label rs = new Label(2, 0, "Res1ults");
 		ws.addCell(un);
 		ws.addCell(pw);
 		ws.addCell(rs);

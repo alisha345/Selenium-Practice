@@ -1,0 +1,26 @@
+<suit name = "Parallel_execution" parallel = "tests">
+<test name = "Firefox_Results">
+<Classes>
+<parameter name = "Sajid" value ="firefox"></parameter>
+<class name = "testNG.ParallelExecution"></class>
+</Classes>
+</test>
+<test name = "Chrome_results">
+<Classes>
+<parameter name = "Sajid" value ="chrome"></parameter>
+<class name = "testNG.ParallelExecution"></class>
+</Classes>
+</test>
+<test name = "Ie_results">
+<Classes>
+<parameter name = "Sajid" value ="ie"></parameter>
+<class name = "testNG.ParallelExecution"></class>
+</Classes>
+</test>
+<test name = "Edge_results">
+<Classes>
+<parameter name = "Sajid" value ="edge"></parameter>
+<class name = "testNG.ParallelExecution"></class>
+</Classes>
+</test>
+</suit>
