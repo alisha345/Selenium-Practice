@@ -1,0 +1,51 @@
+package Util;
+
+import java.util.Properties;
+
+public class SO {
+
+	public static void main(String[] args) {
+		
+		
+	so_lines();
+
+	}
+		
+		
+
+		public static void so_lines() {
+		
+		 String[] inv_code = {"ALIPPBNP", "JWUNALLOCATED", "JWDELETED", "JASONTEST", "UC5"};
+		 
+		 Properties prop = new Properties();
+		 try {
+		     //load a properties file from class path, inside static method
+		     prop.load("config.properties");
+		 }
+		 catch (Exception e) {
+			 e.printStackTrace();
+		}
+
+		 
+		 for( int j= 999; j<1001;j++) {
+			 String  H = "('"+j+1+"','MULTIZONE','C-1','CHBNPL','UPDATE','2021-04-01','2020-12-28'," + 
+				 		" 'Require pick check 1',122020191,false,100,'MAIN','eveXso');";
+				System.out.println("insert into sales_order_headers values " +H);
+				 System.out.println("");
+
+
+
+		 for( int i = 0; i<inv_code.length; i++) {
+		  			 String S = "('"+(j+1)+"','1','"+inv_code[i]+"','"+inv_code[i]+"',5,'xx',0,0,false),";
+
+
+			 System.out.println("insert into sales_order_lines values " +S);
+			 
+			 }			 System.out.println("");
+
+		 }
+		}
+			
+			 
+			
+}	

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 4 elements to &apos;Print_multiple_SO/src/SO_printing&apos;&#x0D;&#x0A;- Original project: &apos;XMLparser&apos;&#x0D;&#x0A;- Destination element: &apos;Print_multiple_SO/src/SO_printing&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Util.SO.java&#x0D;&#x0A;     config.properties&#x0D;&#x0A;     MyFile.txt&#x0D;&#x0A;     SO.properties&#x0D;&#x0A;- Update references to refactored element" description="Move elements" destination="=Print_multiple_SO/src&lt;SO_printing" element1="src/Util/config.properties" element2="src/Util/MyFile.txt" element3="src/Util/SO.properties" element4="/src&lt;Util{SO.java" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1609308992432" units="1" version="1.0"/>
+</session>

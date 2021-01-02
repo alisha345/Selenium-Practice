@@ -1,0 +1,61 @@
+package Util;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class SO {
+
+	public static void main(String[] args)   {
+		
+		
+	try{
+		so_lines();
+	}
+	catch (IOException e) {
+		e.printStackTrace();
+		// TODO: handle exception
+	}
+	}
+
+		           
+		
+
+		public static void so_lines() throws IOException {
+			
+			 FileWriter writer = new FileWriter("E:\\My personal\\Workspace\\Workspace-RestAssured\\XMLparser\\src\\Util\\Myfile.txt", true);
+
+		
+		 String[] inv_code = {"ALIPPBNP", "JWUNALLOCATED", "JWDELETED", "JASONTEST", "UC5"};
+		 
+		 
+		 
+		 for( int j= 999; j<1001;j++) {
+			 String  H = "('"+(j+1)+"','MULTIZONE','C-1','CHBNPL','UPDATE','2021-04-01','2020-12-28'," + 
+				 		" 'Require pick check 1',122020191,false,100,'MAIN','eveXso');";
+				String Header = "insert into sales_order_headers values " +H;
+				
+	           
+				 writer.write(Header);
+				 writer.write("\r\n");   // write new line
+
+		 for( int i = 0; i<inv_code.length; i++) {
+		  			 String S = "('"+(j+1)+"','1','"+inv_code[i]+"','"+inv_code[i]+"',5,'xx',0,0,false),";
+
+
+			 String Lines = "insert into sales_order_lines values " +S;
+	            writer.write(Lines);
+			 
+		
+			 }			
+		 writer.write("\r\n");
+			 
+
+		 }
+			
+			writer.close();
+			
+		}
+			
+		 
+			
+}	

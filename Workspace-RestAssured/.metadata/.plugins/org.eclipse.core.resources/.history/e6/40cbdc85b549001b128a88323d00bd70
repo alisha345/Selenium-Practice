@@ -1,0 +1,60 @@
+package Util;
+
+import java.io.FileWriter;
+
+public class SO {
+
+	public static void main(String[] args) {
+		
+		
+	so_lines();
+	System.out.println(" completed");
+
+	}
+		
+		
+
+		public static void so_lines() {
+			try {
+				 FileWriter writer = new FileWriter("MyFile.txt", true);
+		            writer.write("Hello World");
+		            writer.write("\r\n");   // write new line
+		            writer.write("Good Bye!");
+			
+
+		
+		 String[] inv_code = {"ALIPPBNP", "JWUNALLOCATED", "JWDELETED", "JASONTEST", "UC5"};
+		 
+		 
+		 
+		 for( int j= 999; j<1001;j++) {
+			 String  H = "('"+j+1+"','MULTIZONE','C-1','CHBNPL','UPDATE','2021-04-01','2020-12-28'," + 
+				 		" 'Require pick check 1',122020191,false,100,'MAIN','eveXso');";
+				String Header = "insert into sales_order_headers values " +H;
+				
+				writer.write(Header);
+	            writer.write("\r\n");   // write new line
+
+		 for( int i = 0; i<inv_code.length; i++) {
+		  			 String S = "('"+(j+1)+"','1','"+inv_code[i]+"','"+inv_code[i]+"',5,'xx',0,0,false),";
+
+
+			 String Lines = "insert into sales_order_lines values " +S;
+	            writer.write(Lines);
+			 
+		
+			 }			  writer.write("\r\n");
+			 
+
+		 }
+			 }
+			 catch (Exception e) {
+				 e.printStackTrace();
+			}
+			
+			
+		}
+			
+			 
+			
+}	

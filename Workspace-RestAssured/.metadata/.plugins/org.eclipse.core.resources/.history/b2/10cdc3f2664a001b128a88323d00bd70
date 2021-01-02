@@ -1,0 +1,170 @@
+insert into sales_order_headers 
+(sales_order,warehouse,customer_code,run_code,evexso_action,order_date,required_date,sales_order_name,evexso_id,hold,customer_payment_amount,
+business_unit,operator)
+values 
+('111','MULTIZONE','C-1','CHBNPL','UPDATE','2021-04-01','2020-12-28', 'Require pick check 1',111,false,100,'MAIN','eveXso');
+
+insert into sales_order_lines
+(sales_order,sales_order_line,inventory_code,description,quantity_ordered,unit_of_measure,
+quantity_supplied,rejected_qty,hard_allocation)
+ values 
+('111','1','"ALIPPBNP"','"ALIPPBNP"',5,'xx',0,0,false),
+('111','2',' "JWUNALLOCATED"',' "JWUNALLOCATED"',5,'xx',0,0,false),
+('111','3',' "JWDELETED"',' "JWDELETED"',5,'xx',0,0,false),
+('111','4',' "JASONTEST"',' "JASONTEST"',5,'xx',0,0,false),
+('111','5',' "UC5"',' "UC5"',5,'xx',0,0,false);
+
+
+insert into sales_order_headers 
+(sales_order,warehouse,customer_code,run_code,evexso_action,order_date,required_date,sales_order_name,evexso_id,hold,customer_payment_amount,
+business_unit,operator)
+values 
+('112','MULTIZONE','C-1','CHBNPL','UPDATE','2021-04-01','2020-12-28', 'Require pick check 1',112,false,100,'MAIN','eveXso');
+
+insert into sales_order_lines
+(sales_order,sales_order_line,inventory_code,description,quantity_ordered,unit_of_measure,
+quantity_supplied,rejected_qty,hard_allocation)
+ values 
+('112','1','"ALIPPBNP"','"ALIPPBNP"',5,'xx',0,0,false),
+('112','2',' "JWUNALLOCATED"',' "JWUNALLOCATED"',5,'xx',0,0,false),
+('112','3',' "JWDELETED"',' "JWDELETED"',5,'xx',0,0,false),
+('112','4',' "JASONTEST"',' "JASONTEST"',5,'xx',0,0,false),
+('112','5',' "UC5"',' "UC5"',5,'xx',0,0,false);
+
+
+insert into sales_order_headers 
+(sales_order,warehouse,customer_code,run_code,evexso_action,order_date,required_date,sales_order_name,evexso_id,hold,customer_payment_amount,
+business_unit,operator)
+values 
+('113','MULTIZONE','C-1','CHBNPL','UPDATE','2021-04-01','2020-12-28', 'Require pick check 1',113,false,100,'MAIN','eveXso');
+
+insert into sales_order_lines
+(sales_order,sales_order_line,inventory_code,description,quantity_ordered,unit_of_measure,
+quantity_supplied,rejected_qty,hard_allocation)
+ values 
+('113','1','"ALIPPBNP"','"ALIPPBNP"',5,'xx',0,0,false),
+('113','2',' "JWUNALLOCATED"',' "JWUNALLOCATED"',5,'xx',0,0,false),
+('113','3',' "JWDELETED"',' "JWDELETED"',5,'xx',0,0,false),
+('113','4',' "JASONTEST"',' "JASONTEST"',5,'xx',0,0,false),
+('113','5',' "UC5"',' "UC5"',5,'xx',0,0,false);
+
+
+insert into sales_order_headers 
+(sales_order,warehouse,customer_code,run_code,evexso_action,order_date,required_date,sales_order_name,evexso_id,hold,customer_payment_amount,
+business_unit,operator)
+values 
+('114','MULTIZONE','C-1','CHBNPL','UPDATE','2021-04-01','2020-12-28', 'Require pick check 1',114,false,100,'MAIN','eveXso');
+
+insert into sales_order_lines
+(sales_order,sales_order_line,inventory_code,description,quantity_ordered,unit_of_measure,
+quantity_supplied,rejected_qty,hard_allocation)
+ values 
+('114','1','"ALIPPBNP"','"ALIPPBNP"',5,'xx',0,0,false),
+('114','2',' "JWUNALLOCATED"',' "JWUNALLOCATED"',5,'xx',0,0,false),
+('114','3',' "JWDELETED"',' "JWDELETED"',5,'xx',0,0,false),
+('114','4',' "JASONTEST"',' "JASONTEST"',5,'xx',0,0,false),
+('114','5',' "UC5"',' "UC5"',5,'xx',0,0,false);
+
+
+insert into sales_order_headers 
+(sales_order,warehouse,customer_code,run_code,evexso_action,order_date,required_date,sales_order_name,evexso_id,hold,customer_payment_amount,
+business_unit,operator)
+values 
+('115','MULTIZONE','C-1','CHBNPL','UPDATE','2021-04-01','2020-12-28', 'Require pick check 1',115,false,100,'MAIN','eveXso');
+
+insert into sales_order_lines
+(sales_order,sales_order_line,inventory_code,description,quantity_ordered,unit_of_measure,
+quantity_supplied,rejected_qty,hard_allocation)
+ values 
+('115','1','"ALIPPBNP"','"ALIPPBNP"',5,'xx',0,0,false),
+('115','2',' "JWUNALLOCATED"',' "JWUNALLOCATED"',5,'xx',0,0,false),
+('115','3',' "JWDELETED"',' "JWDELETED"',5,'xx',0,0,false),
+('115','4',' "JASONTEST"',' "JASONTEST"',5,'xx',0,0,false),
+('115','5',' "UC5"',' "UC5"',5,'xx',0,0,false);
+
+
+insert into sales_order_headers 
+(sales_order,warehouse,customer_code,run_code,evexso_action,order_date,required_date,sales_order_name,evexso_id,hold,customer_payment_amount,
+business_unit,operator)
+values 
+('116','MULTIZONE','C-1','CHBNPL','UPDATE','2021-04-01','2020-12-28', 'Require pick check 1',116,false,100,'MAIN','eveXso');
+
+insert into sales_order_lines
+(sales_order,sales_order_line,inventory_code,description,quantity_ordered,unit_of_measure,
+quantity_supplied,rejected_qty,hard_allocation)
+ values 
+('116','1','"ALIPPBNP"','"ALIPPBNP"',5,'xx',0,0,false),
+('116','2',' "JWUNALLOCATED"',' "JWUNALLOCATED"',5,'xx',0,0,false),
+('116','3',' "JWDELETED"',' "JWDELETED"',5,'xx',0,0,false),
+('116','4',' "JASONTEST"',' "JASONTEST"',5,'xx',0,0,false),
+('116','5',' "UC5"',' "UC5"',5,'xx',0,0,false);
+
+
+insert into sales_order_headers 
+(sales_order,warehouse,customer_code,run_code,evexso_action,order_date,required_date,sales_order_name,evexso_id,hold,customer_payment_amount,
+business_unit,operator)
+values 
+('117','MULTIZONE','C-1','CHBNPL','UPDATE','2021-04-01','2020-12-28', 'Require pick check 1',117,false,100,'MAIN','eveXso');
+
+insert into sales_order_lines
+(sales_order,sales_order_line,inventory_code,description,quantity_ordered,unit_of_measure,
+quantity_supplied,rejected_qty,hard_allocation)
+ values 
+('117','1','"ALIPPBNP"','"ALIPPBNP"',5,'xx',0,0,false),
+('117','2',' "JWUNALLOCATED"',' "JWUNALLOCATED"',5,'xx',0,0,false),
+('117','3',' "JWDELETED"',' "JWDELETED"',5,'xx',0,0,false),
+('117','4',' "JASONTEST"',' "JASONTEST"',5,'xx',0,0,false),
+('117','5',' "UC5"',' "UC5"',5,'xx',0,0,false);
+
+
+insert into sales_order_headers 
+(sales_order,warehouse,customer_code,run_code,evexso_action,order_date,required_date,sales_order_name,evexso_id,hold,customer_payment_amount,
+business_unit,operator)
+values 
+('118','MULTIZONE','C-1','CHBNPL','UPDATE','2021-04-01','2020-12-28', 'Require pick check 1',118,false,100,'MAIN','eveXso');
+
+insert into sales_order_lines
+(sales_order,sales_order_line,inventory_code,description,quantity_ordered,unit_of_measure,
+quantity_supplied,rejected_qty,hard_allocation)
+ values 
+('118','1','"ALIPPBNP"','"ALIPPBNP"',5,'xx',0,0,false),
+('118','2',' "JWUNALLOCATED"',' "JWUNALLOCATED"',5,'xx',0,0,false),
+('118','3',' "JWDELETED"',' "JWDELETED"',5,'xx',0,0,false),
+('118','4',' "JASONTEST"',' "JASONTEST"',5,'xx',0,0,false),
+('118','5',' "UC5"',' "UC5"',5,'xx',0,0,false);
+
+
+insert into sales_order_headers 
+(sales_order,warehouse,customer_code,run_code,evexso_action,order_date,required_date,sales_order_name,evexso_id,hold,customer_payment_amount,
+business_unit,operator)
+values 
+('119','MULTIZONE','C-1','CHBNPL','UPDATE','2021-04-01','2020-12-28', 'Require pick check 1',119,false,100,'MAIN','eveXso');
+
+insert into sales_order_lines
+(sales_order,sales_order_line,inventory_code,description,quantity_ordered,unit_of_measure,
+quantity_supplied,rejected_qty,hard_allocation)
+ values 
+('119','1','"ALIPPBNP"','"ALIPPBNP"',5,'xx',0,0,false),
+('119','2',' "JWUNALLOCATED"',' "JWUNALLOCATED"',5,'xx',0,0,false),
+('119','3',' "JWDELETED"',' "JWDELETED"',5,'xx',0,0,false),
+('119','4',' "JASONTEST"',' "JASONTEST"',5,'xx',0,0,false),
+('119','5',' "UC5"',' "UC5"',5,'xx',0,0,false);
+
+
+insert into sales_order_headers 
+(sales_order,warehouse,customer_code,run_code,evexso_action,order_date,required_date,sales_order_name,evexso_id,hold,customer_payment_amount,
+business_unit,operator)
+values 
+('120','MULTIZONE','C-1','CHBNPL','UPDATE','2021-04-01','2020-12-28', 'Require pick check 1',120,false,100,'MAIN','eveXso');
+
+insert into sales_order_lines
+(sales_order,sales_order_line,inventory_code,description,quantity_ordered,unit_of_measure,
+quantity_supplied,rejected_qty,hard_allocation)
+ values 
+('120','1','"ALIPPBNP"','"ALIPPBNP"',5,'xx',0,0,false),
+('120','2',' "JWUNALLOCATED"',' "JWUNALLOCATED"',5,'xx',0,0,false),
+('120','3',' "JWDELETED"',' "JWDELETED"',5,'xx',0,0,false),
+('120','4',' "JASONTEST"',' "JASONTEST"',5,'xx',0,0,false),
+('120','5',' "UC5"',' "UC5"',5,'xx',0,0,false);
+
+

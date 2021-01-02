@@ -1,0 +1,3 @@
+Inventory_codes = "ALIPPBNP", "JWUNALLOCATED", "JWDELETED", "JASONTEST", "UC5"
+first_SO_number = 111
+total_no_So_required = 10
